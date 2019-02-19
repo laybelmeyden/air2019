@@ -19,9 +19,6 @@
 <script src="assets/js/classie.js"></script>
 <script src="assets/js/cbpGridGallery.js"></script>
 
-<script>
-	new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -2,6 +2,10 @@
 
 @section('content')
 
-12312
+<div class="container">
+    <div class="row">
+        
+    </div>
+</div>
 
 @endsection
