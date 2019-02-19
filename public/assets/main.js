@@ -180,4 +180,3 @@ setTimeout(explode, 3000);    // the "href" attribute of the modal trigger must 
 
                 
   });
-

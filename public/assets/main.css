@@ -146,6 +146,12 @@ p > a{text-decoration:underline;}
 .rob_e_7{font-size:24px;font-family:'Open Sans', sans-serif;text-transform:none;font-weight:900;color:#0025af;}
 .cre_1{font-size:24px;font-family:'Open Sans', sans-serif;text-transform:none;font-weight:400;color:black;}
 .e_6{margin-top:135px;}
+select{
+  display: block;
+}
+.modal_shop{
+  overflow: auto !important;
+}
 .rob_v{background:#0025af;position:relative;top:-50px;}
 .pub_poik_2{font-size:18px;font-family:'Open Sans', sans-serif;text-transform:none;color:black;padding-bottom:21px;}
 .itstart_bnt_1:hover{background-color:#0025af;color:white;}
