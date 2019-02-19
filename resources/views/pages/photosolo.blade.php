@@ -44,7 +44,5 @@
 </div>
         
 </section>
-<script>
-	new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-</script>
+
 @endsection
