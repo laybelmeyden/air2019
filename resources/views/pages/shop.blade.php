@@ -2,6 +2,6 @@
 
 @section('content')
 
-
+12312
 
 @endsection

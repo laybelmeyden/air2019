@@ -29,6 +29,8 @@ Route::get('/regions', 'MainController@regions');
 
 Route::get('/photos', 'MainController@photos');
 
+Route::get('/shop', 'MainController@shop');
+
 Route::get('/itstart', 'MainController@itstart');
 
 Route::get('/robostart', 'MainController@robostart');

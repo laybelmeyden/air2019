@@ -9,6 +9,7 @@
         <li><a class=" menu_top dropdown-button text_nav" data-activates='dropdown555'>МЕРОПРИЯТИЯ +</a></li>
         <li><a href="/thenews" class=" menu_top text_nav">НОВОСТИ</a></li>
         <li><a href="/docs" class=" menu_top text_nav">ДОКУМЕНТЫ</a></li>
+        <li><a href="/shop" class=" menu_top text_nav">МАГАЗИН</a></li>
         <li><a href="/contacts" class=" menu_top text_nav">КОНТАКТЫ</a></li>
       </ul>
       <ul id='dropdown1' class='dropdown-content dropdown1' style="    padding-left: 140px;">
@@ -44,6 +45,7 @@
         <li><a class="dropdown-button text_nav" data-activates='dropdown5556'>МЕРОПРИЯТИЯ +</a></li>
         <li><a href="/thenews" class="  text_nav">НОВОСТИ</a></li>
         <li><a href="/docs" class=" text_nav">ДОКУМЕНТЫ</a></li>
+        <li><a href="/shop" class=" text_nav">МАГАЗИН</a></li>
         <li><a href="/contacts" class=" text_nav">КОНТАКТЫ</a></li>
       </ul>
       <ul id='dropdown2' class='dropdown-content'>

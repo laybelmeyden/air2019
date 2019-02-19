@@ -359,6 +359,18 @@ class MainController extends Controller
       
       return view('pages.otchet', compact('titl', 'meta', 'keywords'));
     }
+    public function shop()
+    {
+      $seos = Seo::latest()
+      ->where('option', '21')
+      ->first();
+      
+      isset($seos->title) ? $titl = $seos->title : $titl = "AIR";
+      isset($seos->meta) ? $meta = $seos->meta : $meta = "AIR";
+      isset($seos->keywords) ? $keywords = $seos->keywords : $keywords = "AIR";
+      
+      return view('pages.shop', compact ('titl', 'meta', 'keywords'));
+    }
     
     public function search1()
     {
