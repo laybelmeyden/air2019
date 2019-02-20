@@ -149,6 +149,29 @@ p > a{text-decoration:underline;}
 select{
   display: block;
 }
+.shop__img__item{
+  height: 300px;
+}
+.item__shop__form{
+  margin-top: 30px !important;
+}
+.shop__p__item{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #0025af !important;
+    padding-bottom: 5px;
+}
+.item__shop__card{
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+.materialboxed.active.shop__img__item {
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+    height: auto !important;
+}
 .modal_shop{
   overflow: auto !important;
 }

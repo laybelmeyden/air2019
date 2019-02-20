@@ -79,6 +79,8 @@ Route::post('/jurnal', 'MessagesController@jurnal');
 
 Route::post('/creativform', 'MessagesController@creativform');
 
+Route::post('/shopform', 'MessagesController@shopform');
+
 
 
 
