@@ -65,10 +65,10 @@
       <label>Мероприятия</label>
       <select>
       <option value="" name="shop_select_2" disabled selected>Выберите мерипроятие в котором вы планируете участвовать</option>
-      <option>Стартап-школа 1</option>
-      <option>Стартап-школа 2</option>
-      <option>Стартап-школа 3</option>
-      <option>Стартап-школа 4</option>
+      <option value="Стартап-школа 1">Стартап-школа 1</option>
+      <option value="Стартап-школа 1">Стартап-школа 2</option>
+      <option value="Стартап-школа 1">Стартап-школа 3</option>
+      <option value="Стартап-школа 1">Стартап-школа 4</option>
       </select>
     </div>
       <div class="input-field col s12 item__shop__form">
