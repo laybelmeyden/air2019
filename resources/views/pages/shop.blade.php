@@ -63,8 +63,8 @@
     </div>
     <div class="col s12 item__shop__form">
       <label>Мероприятия</label>
-      <select>
-      <option value="" name="shop_select_2" disabled selected>Выберите мерипроятие в котором вы планируете участвовать</option>
+      <select name="shop_select_2">
+      <option value="" disabled selected>Выберите мерипроятие в котором вы планируете участвовать</option>
       <option value="Стартап-школа ЮФО">Стартап-школа ЮФО</option>
       <option value="Стартап-школа ПФО">Стартап-школа ПФО</option>
       <option value="Стартап-школа ЦФО">Стартап-школа ЦФО</option>
@@ -153,8 +153,8 @@
     </div>
     <div class="col s12 item__shop__form">
       <label>Мероприятия</label>
-      <select>
-      <option value="" name="shop_select_2" disabled selected>Выберите мерипроятие в котором вы планируете участвовать</option>
+      <select name="shop_select_2">
+      <option value="" disabled selected>Выберите мерипроятие в котором вы планируете участвовать</option>
       <option value="Стартап-школа ЮФО">Стартап-школа ЮФО</option>
       <option value="Стартап-школа ПФО">Стартап-школа ПФО</option>
       <option value="Стартап-школа ЦФО">Стартап-школа ЦФО</option>
@@ -243,8 +243,8 @@
     </div>
     <div class="col s12 item__shop__form">
       <label>Мероприятия</label>
-      <select>
-      <option value="" name="shop_select_2" disabled selected>Выберите мерипроятие в котором вы планируете участвовать</option>
+      <select name="shop_select_2">
+      <option value="" disabled selected>Выберите мерипроятие в котором вы планируете участвовать</option>
       <option value="Стартап-школа ЮФО">Стартап-школа ЮФО</option>
       <option value="Стартап-школа ПФО">Стартап-школа ПФО</option>
       <option value="Стартап-школа ЦФО">Стартап-школа ЦФО</option>
