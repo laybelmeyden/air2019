@@ -10,7 +10,7 @@
     <div class="col l12 s12 m12 item__shop__card">
     <div class="card horizontal pop_edu_v_magadan">
     <div class="card-image gover">
-      <img class="materialboxed shop__img__item" src="http://ovk-compani.ru/files/core/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20Electrolux.jpg">
+      <img class="materialboxed shop__img__item" src="assets/img/Sertifikat.jpg">
     </div>
     <div class="card-stacked giti">
     <div class="card-content">
@@ -100,7 +100,7 @@
     <div class="col l12 s12 m12 item__shop__card">
     <div class="card horizontal pop_edu_v_magadan">
     <div class="card-image gover">
-      <img class="materialboxed shop__img__item" src="http://ovk-compani.ru/files/core/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20Electrolux.jpg">
+      <img class="materialboxed shop__img__item" src="assets/img/Sertifikat.jpg">
     </div>
     <div class="card-stacked giti">
     <div class="card-content">
@@ -190,7 +190,7 @@
     <div class="col l12 s12 m12 item__shop__card">
     <div class="card horizontal pop_edu_v_magadan">
     <div class="card-image gover">
-      <img class="materialboxed shop__img__item" src="http://ovk-compani.ru/files/core/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20Electrolux.jpg">
+      <img class="materialboxed shop__img__item" src="assets/img/Sertifikat.jpg">
     </div>
     <div class="card-stacked giti">
     <div class="card-content">
