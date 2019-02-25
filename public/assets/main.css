@@ -152,6 +152,9 @@ select{
 .shop__img__item{
   height: 300px;
 }
+.hidden{
+  display: none;
+}
 .item__mero__solo{
   height: auto !important;
 }

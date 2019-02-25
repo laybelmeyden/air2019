@@ -51,7 +51,7 @@
     <div class="container">
         <div class="row">
             <div class="col l12 s12 m12 urururu">
-                <img src="/storage/{{ $solo->image }}" class="kupola_zol">
+                <img src="/storage/{{ $solo->image }}" class="kupola_zol item__mero__solo">
             </div>
             
             

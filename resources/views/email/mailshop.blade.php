@@ -5,10 +5,11 @@
     <title>Message from site</title>
   </head>
   <body>
-    <h1>Заявка на оплату сертификата</h1>
+    <h1>Заявка на оплату сертификата {{ $hidden_item}}</h1>
     ФИО - {{ $shop_fio }}<br>
     Год рождения -  {{ $shop_select }}<br>
     Мероприятия -  {{ $shop_select_2 }}<br>
+    Телефон -  {{ $phone }}<br>
     Почта -  {{ $email }}<br>
 
   </body>
