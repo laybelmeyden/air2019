@@ -248,6 +248,36 @@
             </li>
 
           </div>
+          <div class="col l4 m6 s12 jhytfgtrfs">
+            <li class="liop"><img src="assets/img/chukotskiy_coa.png" class="responsive-img wwaw ">
+              <p class="liopopopopo list-object11">ЧУКОТСКИЙ АВТОНОМНЫЙ ОКРУГ</p>
+            </li>
+
+          </div>
+          <div class="col l4 m6 s12 jhytfgtrfs">
+            <li class="liop"><img src="assets/img/amurskaya_coa_big.png" class="responsive-img wwaw ">
+              <p class="liopopopopo list-object11">АМУРСКАЯ ОБЛАСТЬ</p>
+            </li>
+
+          </div>
+          <div class="col l4 m6 s12 jhytfgtrfs">
+            <li class="liop"><img src="assets/img/omskaya_coa.png" class="responsive-img wwaw ">
+              <p class="liopopopopo list-object11">ОМСКАЯ ОБЛАСТЬ</p>
+            </li>
+
+          </div>
+          <div class="col l4 m6 s12 jhytfgtrfs">
+            <li class="liop"><img src="assets/img/chelyabinskaya_coa_small.png" class="responsive-img wwaw ">
+              <p class="liopopopopo list-object11">ЧЕЛЯБИНСКАЯ ОБЛАСТЬ</p>
+            </li>
+
+          </div>
+          <div class="col l4 m6 s12 jhytfgtrfs">
+            <li class="liop"><img src="assets/img/gerb_kaluzhskoy_oblasti-600x691.png" class="responsive-img wwaw ">
+              <p class="liopopopopo list-object11">КАЛУЖСКАЯ ОБЛАСТЬ</p>
+            </li>
+
+          </div>
 
         </ul>
       </div>
