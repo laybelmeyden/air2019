@@ -22,15 +22,18 @@
     </div>
     </div>
     
-    <form action="/shopform" method="POST">
+    <form action="https://money.yandex.ru/eshop.xml" method="post">
     {{ csrf_field() }}
+    <input name="shopId" value="131650" type="hidden" required/>
+    <input name="scid" value="905333" type="hidden" required/>
+    <input name="sum" value="1" type="hidden" required>
         <!-- Modal Structure -->
     <div id="modalshop" class="modal modal_shop">
     <div class="modal-content">
     <h4>Заказать сертификат</h4>
     <div class="form">
     <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите Ваше ФИО" id="first_name" name="shop_fio" type="text" class="validate" required>
+      <input placeholder="Введите Ваше ФИО" id="first_name" name="customerNumber" type="text" class="validate" required>
       <label for="first_name">ФИО</label>
     </div>
     <div class="col s12 item__shop__form">
@@ -76,21 +79,21 @@
       </select>
     </div>
       <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите ваш e-mail" id="first_name" name="email" type="email" class="validate ">
+      <input placeholder="Введите ваш e-mail" id="first_name" name="custEmail" type="email" class="validate ">
       <label for="first_name">Ваша почта, на данный адрес будет отправлен электронный сертифика</label>
       </div>
       <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите ваш телефон" id="first_name" name="phone" type="text" class="validate ">
+      <input placeholder="Введите ваш телефон" id="first_name" name="custName" type="text" class="validate ">
       <label for="first_name">Номер для связи</label>
       </div>
       <div class="input-field col s12 item__shop__form hidden">
-      <input id="first_name" name="hidden_item" type="text" class="validate" value="Электронный сертификат от Агентства инновационного развития о прохождении курса обучения по программе «Основы технологического предпринимательства» ">
+      <input id="first_name" name="hidden_item" name="orderDetails" type="text" class="validate" value="Электронный сертификат от Агентства инновационного развития о прохождении курса обучения по программе «Основы технологического предпринимательства» ">
       </div>
     </div>
       <p>* В сертификате указывается ФИО получателя, даты прохождения курса, тематика мастер-классов, количество часов – 24. Сертификат будет отправлен на электронную почту, указанную при покупке, в течение 5 рабочих дней после участия в мероприятии.</p>
     </div>
     <div class="modal-footer">
-      <button type="submit" class="waves-effect btn_magad btn">Оплатить</button>
+      <input type="submit" class="waves-effect btn_magad btn" value="Заплатить">
     </div>
     </div>
     </form>
