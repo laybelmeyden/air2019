@@ -288,5 +288,24 @@
 info@rusinnovations.com</p>
     </div>
     </div>
+    <h1>Гравицапа</h1>
+    <div>Цена: 100 руб.</div><hr>
+     
+    <form action="https://money.yandex.ru/eshop.xml" method="post">
+    <input name="shopId" value="131650" type="hidden" required/>
+    <input name="scid" value="905333" type="hidden" required/>
+    К оплате<br>
+    <input name="sum" value="" type="number" min="1" placeholder="1" required>
+     
+     Имя покупателя<br>
+     <input required name="customerNumber" value="" size="64"/><br><br>
     
+     Телефон покупателя<br>  
+     <input name="custName" value="" size="64"/><br><br>
+ 
+     Комментарии к заказу<br>   
+     <textarea name="orderDetails" value="" rows="5" cols="64" wrap="soft"></textarea><br><br>
+ 
+     <input type="submit" value="Заплатить">
+     </form>
 @endsection
