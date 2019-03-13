@@ -33,12 +33,12 @@
     <h4>Заказать сертификат</h4>
     <div class="form">
     <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите Ваше ФИО" id="first_name" name="customerNumber" type="text" class="validate" required>
+      <input placeholder="Введите Ваше ФИО" id="first_name" name="custName" type="text" class="validate" required>
       <label for="first_name">ФИО</label>
     </div>
     <div class="col s12 item__shop__form">
       <label>Год рождения</label>
-      <select name="shop_select">
+      <select name="orderDetails">
       <option value="" disabled selected>Выберите Ваш год рождения</option>
       <option value="2001">2001</option>
       <option value="2000">2000</option>
@@ -66,7 +66,7 @@
     </div>
     <div class="col s12 item__shop__form">
       <label>Мероприятия</label>
-      <select name="shop_select_2">
+      <select name="orderDetails">
       <option value="" disabled selected>Выберите мерипроятие в котором вы планируете участвовать</option>
       <option value="Стартап-школа ЮФО">Стартап-школа ЮФО</option>
       <option value="Стартап-школа ПФО">Стартап-школа ПФО</option>
@@ -83,11 +83,11 @@
       <label for="first_name">Ваша почта, на данный адрес будет отправлен электронный сертифика</label>
       </div>
       <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите ваш телефон" id="first_name" name="custName" type="text" class="validate ">
+      <input placeholder="Введите ваш телефон" id="first_name" name="custAddr" type="text" class="validate ">
       <label for="first_name">Номер для связи</label>
       </div>
       <div class="input-field col s12 item__shop__form hidden">
-      <input id="first_name" name="hidden_item" name="orderDetails" type="text" class="validate" value="Электронный сертификат от Агентства инновационного развития о прохождении курса обучения по программе «Основы технологического предпринимательства» ">
+      <input id="first_name" name="orderDetails" type="hidden" class="validate" value="Электронный сертификат от Агентства инновационного развития о прохождении курса обучения по программе «Основы технологического предпринимательства» ">
       </div>
     </div>
       <p>* В сертификате указывается ФИО получателя, даты прохождения курса, тематика мастер-классов, количество часов – 24. Сертификат будет отправлен на электронную почту, указанную при покупке, в течение 5 рабочих дней после участия в мероприятии.</p>
@@ -291,24 +291,4 @@
 info@rusinnovations.com</p>
     </div>
     </div>
-    <h1>Гравицапа</h1>
-    <div>Цена: 100 руб.</div><hr>
-     
-    <form action="https://money.yandex.ru/eshop.xml" method="post">
-    <input name="shopId" value="131650" type="hidden" required/>
-    <input name="scid" value="905333" type="hidden" required/>
-    К оплате<br>
-    <input name="sum" value="" type="number" min="1" placeholder="1" required>
-     
-     Имя покупателя<br>
-     <input required name="customerNumber" value="" size="64"/><br><br>
-    
-     Телефон покупателя<br>  
-     <input name="custName" value="" size="64"/><br><br>
- 
-     Комментарии к заказу<br>   
-     <textarea name="orderDetails" value="" rows="5" cols="64" wrap="soft"></textarea><br><br>
- 
-     <input type="submit" value="Заплатить">
-     </form>
 @endsection
