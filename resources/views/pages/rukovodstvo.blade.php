@@ -42,7 +42,7 @@
 С 2016 по 2017 год - менеджер образовательных проектов ООО "АЙТИЭС" <br><br>
 С 2017 года - руководитель проектов АНО "Агентство инновационного развития"<br><br>
 <b>E-mail:</b> sales@rusinnovations.com</p>
-<b>VK:</b> vk.com/sergunofficial</p>
+<b>VK:</b> https://vk.com/sergunofficial</p>
     </div>
     </div>
     </div>
@@ -62,6 +62,7 @@
 С 2017 по 2018 год координатор Международной Академии ведущих "Сибирский вариант".<br><br>
 С 2018 года – руководитель проектов АНО "Агентство инновационного развития".<br><br>
 <b>E-mail:</b> vs@rusinnovations.com</p>
+<b>VK:</b> https://vk.com/vladimir_shulghin</p>
     </div>
     </div>
     </div>
