@@ -34,7 +34,7 @@
       <img src="assets/img/Nikita1.png" class="responsive-img filter_1">
     </div>
     <div class="card-content">
-      <p class="ruk__item__p__one">Сергеев Никита</p><br>
+      <p class="ruk__item__p__one">Сергеев Никита Юрьевич</p><br>
       <p class="ruk__item__p__two">Руководитель проектов АНО «Агентство инновационного развития»</p>
       <br>
 Образование: Московский авиационный институт, специальность "Управление персоналом" (обучается по настоящее время) <br><br>
@@ -52,7 +52,7 @@
       <img src="assets/img/554F28B3-5F7B-48DB-9697-0D63D58BA9E5.png" class="responsive-img filter_1">
     </div>
     <div class="card-content">
-      <p class="ruk__item__p__one">Владимир Шульгин</p><br>
+      <p class="ruk__item__p__one">Шульгин Владимир Алексеевич</p><br>
       <p class="ruk__item__p__two">Руководитель проектов АНО «Агентство инновационного развития»</p>
       <br>
 Образование: Финансовый университет при Правительстве РФ, специальность "ГМУ" и "Финансовый менеджмент".<br><br>
