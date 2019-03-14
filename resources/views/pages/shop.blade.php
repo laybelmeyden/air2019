@@ -26,7 +26,7 @@
     {{ csrf_field() }}
     <input name="shopId" value="131650" type="hidden" required/>
     <input name="scid" value="905333" type="hidden" required/>
-    <input name="sum" value="1" type="hidden" required>
+    <input name="sum" value="300" type="hidden" required>
         <!-- Modal Structure -->
     <div id="modalshop" class="modal modal_shop">
     <div class="modal-content">
@@ -37,11 +37,11 @@
       <label for="first_name">ФИО</label>
     </div>
       <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите ваш e-mail" id="first_name" name="custEmail" type="email" class="validate ">
+      <input placeholder="Введите ваш e-mail" id="first_name" name="custEmail" type="email" class="validate " required>
       <label for="first_name">Ваша почта, на данный адрес будет отправлен электронный сертифика</label>
       </div>
       <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите ваш телефон" id="first_name" name="custAddr" type="text" class="validate ">
+      <input placeholder="Введите ваш телефон" id="first_name" name="custAddr" type="text" class="validate " required>
       <label for="first_name">Номер для связи</label>
       </div>
       <div class="input-field col s12 item__shop__form hidden">
@@ -76,7 +76,7 @@
     {{ csrf_field() }}
     <input name="shopId" value="131650" type="hidden" required/>
     <input name="scid" value="905333" type="hidden" required/>
-    <input name="sum" value="1" type="hidden" required>
+    <input name="sum" value="500" type="hidden" required>
         <!-- Modal Structure -->
     <div id="modalshop2" class="modal modal_shop">
     <div class="modal-content">
@@ -87,11 +87,11 @@
       <label for="first_name">ФИО</label>
     </div>
       <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите ваш e-mail" id="first_name" name="custEmail" type="email" class="validate ">
+      <input placeholder="Введите ваш e-mail" id="first_name" name="custEmail" type="email" class="validate " required>
       <label for="first_name">Ваша почта, на данный адрес будет отправлен электронный сертифика</label>
       </div>
       <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите ваш телефон" id="first_name" name="custAddr" type="text" class="validate ">
+      <input placeholder="Введите ваш телефон" id="first_name" name="custAddr" type="text" class="validate " required>
       <label for="first_name">Номер для связи</label>
       </div>
       <div class="input-field col s12 item__shop__form hidden">
@@ -126,7 +126,7 @@
     {{ csrf_field() }}
     <input name="shopId" value="131650" type="hidden" required/>
     <input name="scid" value="905333" type="hidden" required/>
-    <input name="sum" value="1" type="hidden" required>
+    <input name="sum" value="4300" type="hidden" required>
         <!-- Modal Structure -->
     <div id="modalshop3" class="modal modal_shop">
     <div class="modal-content">
@@ -137,11 +137,11 @@
       <label for="first_name">ФИО</label>
     </div>
       <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите ваш e-mail" id="first_name" name="custEmail" type="email" class="validate ">
+      <input placeholder="Введите ваш e-mail" id="first_name" name="custEmail" type="email" class="validate" required>
       <label for="first_name">Ваша почта, на данный адрес будет отправлен электронный сертифика</label>
       </div>
       <div class="input-field col s12 item__shop__form">
-      <input placeholder="Введите ваш телефон" id="first_name" name="custAddr" type="text" class="validate ">
+      <input placeholder="Введите ваш телефон" id="first_name" name="custAddr" type="text" class="validate" required>
       <label for="first_name">Номер для связи</label>
       </div>
       <div class="input-field col s12 item__shop__form hidden">

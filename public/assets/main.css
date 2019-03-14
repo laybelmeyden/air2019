@@ -558,7 +558,24 @@ nav ul a:hover{background-color:transparent !important;}
 .poplil1{display:block;}
 .poplil2{display:none;background:#e8e8e8;position:absolute;top:100%;}
 .text_nav_2_2_2{padding-top:29px !important;}
-@media screen and (max-width:992px){table td{display:block;width:500px !important;word-break:break-word;}
+.ruk__item__p__one{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: black;
+    text-transform: uppercase;
+}
+.ruk__item__p__two{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: black;
+}
+@media screen and (max-width:992px){
+  table td{
+    display:block;
+    width:500px !important;
+    word-break:break-word;}
 }
 @media screen and (max-width:660px){
   table td{display:block;width:300px !important;word-break:break-word;}
