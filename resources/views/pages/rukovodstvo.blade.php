@@ -8,6 +8,8 @@
             <div class="col l12 s12 m12" >
                 <p class="its_poik_rob">РУКОВОДСТВО</p>
             </div>
+      <div class="col l12 s12 m12">
+        <div class="col l4 s12 m12"></div>
     <div class="col l4 s12 m12">
     <div class="card">
     <div class="card-image">
@@ -24,10 +26,11 @@
 С 2011 года – руководитель всероссийской программы поддержки молодых программистов «IT-Start».<br><br>
 Советник государственной гражданской службы Российской Федерации 2 класса.<br><br>
 <b>E-mail:</b> sks@rusinnovations.com</p>
+<b>VK:</b> <a href="https://vk.com/id158927846">vk.com/id158927846</a></p>
     </div>
     </div>
     </div>
-    
+    </div>
     <div class="col l4 s12 m12">
     <div class="card">
     <div class="card-image">
