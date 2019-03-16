@@ -113,7 +113,7 @@
     </div>
     </div>
     
-    <form action="/shopform" method="POST" id="form__suc__two">
+    <form action="/shopform2" method="POST" id="form__suc__two">
     {{ csrf_field() }}
     <!-- Modal Structure -->
     <div id="modalshop2" class="modal modal_shop">
@@ -204,7 +204,7 @@
     </div>
     </div>
     
-      <form action="/shopform" method="POST" id="form__suc__three">
+      <form action="/shopform3" method="POST" id="form__suc__three">
     {{ csrf_field() }}
     <!-- Modal Structure -->
     <div id="modalshop3" class="modal modal_shop">

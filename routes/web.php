@@ -80,6 +80,8 @@ Route::post('/jurnal', 'MessagesController@jurnal');
 Route::post('/creativform', 'MessagesController@creativform');
 
 Route::post('/shopform', 'MessagesController@shopform');
+Route::post('/shopform2', 'MessagesController@shopform2');
+Route::post('/shopform3', 'MessagesController@shopform3');
 
 Route::get('/oplataone', 'MainController@oplataone');
 

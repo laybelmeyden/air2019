@@ -181,24 +181,3 @@ setTimeout(explode, 3000);    // the "href" attribute of the modal trigger must 
                 
   });
 
-const OplataRedirect = () => {
-	const btn1 = document.querySelector("#op1");
-	btn1.onclick = () => {
-	window.location.href = "/oplataone";
-	}
-	const btn2 = document.querySelector("#op2");
-	btn2.onclick = () => {
-	window.location.href = "/oplatatwo";
-	}
-	const btn3 = document.querySelector("#op3");
-	btn3.onclick = () => {
-	window.location.href = "/oplatathree";
-	}
-};
-
-const formsuccsessone = document.querySelector("#form__suc__one");
-const formsuccsesstwo = document.querySelector("#form__suc__two");
-const formsuccsessthree = document.querySelector("#form__suc__three");
-formsuccsessone.onsubmit = OplataRedirect();
-formsuccsesstwo.onsubmit = OplataRedirect();
-formsuccsessthree.onsubmit = OplataRedirect();
