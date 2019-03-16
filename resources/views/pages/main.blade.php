@@ -293,7 +293,7 @@ padding-bottom: 20px; color:#95969a;">
   <div class="container">
     <div class="row">
 
-      <div class="col l12 m12 s12r" style="    padding-bottom: 40px;">
+      <div class="col l12 m12 s12 cnt__1" style="padding-bottom: 40px;">
         <h2 class="mero-text">МЕРОПРИЯТИЯ</h2>
         <a href="/events" class="waves-effect waves-light btn btn_project_2">ВСЕ МЕРОПРИЯТИЯ</a>
       </div>

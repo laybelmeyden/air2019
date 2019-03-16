@@ -462,7 +462,7 @@ figcaption.mask{background-color:rgba(54, 55, 50, 0.79);color:#fff;padding:25px;
 @media only screen and (min-width:993px){.container{width:83%;}}
 .project-wrapper_1 li{display:inline-block;}
 .portfolio-item_1{cursor:pointer;list-style:none;overflow:hidden;position:relative;height:455px;}
-.fara{text-align:-webkit-center;min-height:460px !important;display:flex;justify-items:center;}
+.fara{text-align:-webkit-center;min-height:460px !important;}
 .mask_1{background-image:url(img/siso.png);background-size:contain;bottom:-126px;color:#fff;padding:15px;position:absolute;width:102%;text-align:left;-webkit-transition:all 0.4s ease 0s;-moz-transition:all 0.4s ease 0s;-ms-transition:all 0.4s ease 0s;-o-transition:all 0.4s ease 0s;transition:all 0.4s ease 0s;height:100%;}
 .jgajjglsajgl{
   height:100%;
@@ -571,6 +571,14 @@ nav ul a:hover{background-color:transparent !important;}
     font-weight: 900;
     color: black;
 }
+.oplata__btn__item{
+  border-width: 0px !important;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    padding: 10px;
+    width: 200px;
+}
 @media screen and (max-width:992px){
   table td{
     display:block;
@@ -580,5 +588,24 @@ nav ul a:hover{background-color:transparent !important;}
 @media screen and (max-width:660px){
   table td{display:block;width:300px !important;word-break:break-word;}
   .baner_reclama{width:100%;}
+  .kkk{
+    width: 350px !important;
+  }
+  .oi {
+    width: 320px !important;
+    float: left;
+    height: auto;
+}
+.cnt__1{
+    text-align: center;
+}
+.jgajjglsajgl {
+    height: 100%;
+    width: 100%;
+}
+.mask_1 {
+    background-size: auto;
+}
 }
 .pagination li.active{background-color:#0025af;color:white;padding:2px 5px 2px 5px;border-radius:0px;font-size:18px;font-family:'Open Sans Semibold', sans-serif;}
+

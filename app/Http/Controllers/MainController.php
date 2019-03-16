@@ -376,4 +376,16 @@ class MainController extends Controller
     {
       return view('pages.search');
     }
+    public function oplataone()
+    {
+      return view('pages.form1');
+    }
+    public function oplatatwo()
+    {
+      return view('pages.form2');
+    }
+    public function oplatathree()
+    {
+      return view('pages.form3');
+    }
 }

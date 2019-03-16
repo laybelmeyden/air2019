@@ -81,6 +81,12 @@ Route::post('/creativform', 'MessagesController@creativform');
 
 Route::post('/shopform', 'MessagesController@shopform');
 
+Route::get('/oplataone', 'MainController@oplataone');
+
+Route::get('/oplatatwo', 'MainController@oplatatwo');
+
+Route::get('/oplatathree', 'MainController@oplatathree');
+
 
 
 
