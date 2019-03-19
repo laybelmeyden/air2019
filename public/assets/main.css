@@ -465,7 +465,7 @@ figcaption.mask{background-color:rgba(54, 55, 50, 0.79);color:#fff;padding:25px;
 .fara{text-align:-webkit-center;min-height:460px !important;}
 .mask_1{background-image:url(img/siso.png);background-size:contain;bottom:-126px;color:#fff;padding:15px;position:absolute;width:102%;text-align:left;-webkit-transition:all 0.4s ease 0s;-moz-transition:all 0.4s ease 0s;-ms-transition:all 0.4s ease 0s;-o-transition:all 0.4s ease 0s;transition:all 0.4s ease 0s;height:100%;}
 .jgajjglsajgl{
-  height:100%;
+  height:auto;
   width: 100%;
 }
 .ev1{margin:0;font-size:16px;font-family:'Open Sans', sans-serif;font-weight:400;color:white;padding-bottom:30px;word-break:break-word;}
@@ -600,7 +600,7 @@ nav ul a:hover{background-color:transparent !important;}
     text-align: center;
 }
 .jgajjglsajgl {
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 .mask_1 {
