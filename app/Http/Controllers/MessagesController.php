@@ -171,12 +171,13 @@ class MessagesController extends Controller
       'phone' => request('phone'),
       'hidden_item' => request('hidden_item'),
       'email' => request('email'),
+      'email_adres' => request('email_adres'),
 
       );
        \Mail::send('email.mailshop', $data, function($message1) use ($data)
     {
         $mail_admin = env('MAIL_ADMIN_FOOTER');
-        $message1->from($data['email'], $data['shop_fio'], $data['shop_select'], $data['shop_select_2'], $data['phone'], $data['hidden_item']);
+        $message1->from($data['email'], $data['shop_fio'], $data['shop_select'], $data['shop_select_2'], $data['phone'], $data['hidden_item'], $data['email_adres']);
         $message1->to($mail_admin, 'For Admin')->subject('Message from site');
      });
       
@@ -192,12 +193,13 @@ class MessagesController extends Controller
       'phone' => request('phone'),
       'hidden_item' => request('hidden_item'),
       'email' => request('email'),
+      'email_adres' => request('email_adres'),
 
       );
        \Mail::send('email.mailshop', $data, function($message1) use ($data)
     {
         $mail_admin = env('MAIL_ADMIN_FOOTER');
-        $message1->from($data['email'], $data['shop_fio'], $data['shop_select'], $data['shop_select_2'], $data['phone'], $data['hidden_item']);
+        $message1->from($data['email'], $data['shop_fio'], $data['shop_select'], $data['shop_select_2'], $data['phone'], $data['hidden_item'], $data['email_adres']);
         $message1->to($mail_admin, 'For Admin')->subject('Message from site');
      });
       
@@ -213,12 +215,13 @@ class MessagesController extends Controller
       'phone' => request('phone'),
       'hidden_item' => request('hidden_item'),
       'email' => request('email'),
+      'email_adres' => request('email_adres'),
 
       );
        \Mail::send('email.mailshop', $data, function($message1) use ($data)
     {
         $mail_admin = env('MAIL_ADMIN_FOOTER');
-        $message1->from($data['email'], $data['shop_fio'], $data['shop_select'], $data['shop_select_2'], $data['phone'], $data['hidden_item']);
+        $message1->from($data['email'], $data['shop_fio'], $data['shop_select'], $data['shop_select_2'], $data['phone'], $data['hidden_item'], $data['email_adres']);
         $message1->to($mail_admin, 'For Admin')->subject('Message from site');
      });
       
