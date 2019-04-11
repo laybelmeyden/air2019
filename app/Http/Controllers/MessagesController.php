@@ -161,5 +161,69 @@ class MessagesController extends Controller
       
       return back();
     }
+    public function shopform(Request $request)
+      {
+      
+      $data= array(
+      'shop_fio' => request('shop_fio'),
+      'shop_select' => request('shop_select'),
+      'shop_select_2' => request('shop_select_2'),
+      'phone' => request('phone'),
+      'hidden_item' => request('hidden_item'),
+      'email' => request('email'),
+
+      );
+       \Mail::send('email.mailshop', $data, function($message1) use ($data)
+    {
+        $mail_admin = env('MAIL_ADMIN_FOOTER');
+        $message1->from($data['email'], $data['shop_fio'], $data['shop_select'], $data['shop_select_2'], $data['phone'], $data['hidden_item']);
+        $message1->to($mail_admin, 'For Admin')->subject('Message from site');
+     });
+      
+      return redirect('/oplataone');
+    }
+    public function shopform2(Request $request)
+      {
+      
+         $data= array(
+      'shop_fio' => request('shop_fio'),
+      'shop_select' => request('shop_select'),
+      'shop_select_2' => request('shop_select_2'),
+      'phone' => request('phone'),
+      'hidden_item' => request('hidden_item'),
+      'email' => request('email'),
+
+      );
+       \Mail::send('email.mailshop', $data, function($message1) use ($data)
+    {
+        $mail_admin = env('MAIL_ADMIN_FOOTER');
+        $message1->from($data['email'], $data['shop_fio'], $data['shop_select'], $data['shop_select_2'], $data['phone'], $data['hidden_item']);
+        $message1->to($mail_admin, 'For Admin')->subject('Message from site');
+     });
+      
+      return redirect('/oplatatwo');
+    }
+    public function shopform3(Request $request)
+      {
+      
+         $data= array(
+      'shop_fio' => request('shop_fio'),
+      'shop_select' => request('shop_select'),
+      'shop_select_2' => request('shop_select_2'),
+      'phone' => request('phone'),
+      'hidden_item' => request('hidden_item'),
+      'email' => request('email'),
+
+      );
+       \Mail::send('email.mailshop', $data, function($message1) use ($data)
+    {
+        $mail_admin = env('MAIL_ADMIN_FOOTER');
+        $message1->from($data['email'], $data['shop_fio'], $data['shop_select'], $data['shop_select_2'], $data['phone'], $data['hidden_item']);
+        $message1->to($mail_admin, 'For Admin')->subject('Message from site');
+     });
+      
+      return redirect('/oplatathree');
+    }
+    
 
 }
