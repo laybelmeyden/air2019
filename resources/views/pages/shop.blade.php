@@ -262,6 +262,10 @@
       <label for="first_name">Ваша почта, на данный адрес будет отправлен электронный сертифика</label>
       </div>
       <div class="input-field col s12 item__shop__form">
+      <input placeholder="Введите ваш почтовый адрес" id="first_name" name="email_adres" type="email" class="validate" required>
+      <label for="first_name">Ваш почтовый адрес, на данный адрес будет отправлен сертификат заказным письмом</label>
+      </div>
+      <div class="input-field col s12 item__shop__form">
       <input placeholder="Введите ваш телефон" id="first_name" name="phone" type="text" class="validate" required>
       <label for="first_name">Номер для связи</label>
       </div>

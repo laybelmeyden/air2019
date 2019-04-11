@@ -11,6 +11,6 @@
     Мероприятия -  {{ $shop_select_2 }}<br>
     Телефон -  {{ $phone }}<br>
     Почта -  {{ $email }}<br>
-
+    Почтовый адрес -  {{ $email_adres }}<br>
   </body>
 </html>
